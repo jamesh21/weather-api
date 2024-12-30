@@ -4,6 +4,7 @@ const express = require("express");
 const app = express();
 const errorHandlerMiddleware = require("./middleware/error-handler");
 const weatherRouter = require("./routes/weather");
+
 app.use(express.json());
 // routes
 app.use("/api/v1/weather", weatherRouter);
