@@ -7,7 +7,7 @@ The purpose of this project is to practice using third party APIs, caching, env 
 ## API endpoints
 /api/v1/weather/:location - returns current weather for location (passed in location, can be zip code, address, or city)\
 /api/v1/weather/:location/daily - returns 14 day weather for location (passed in location, can be zip code, address, or city)\
-/api/v1/weather/:location/hourly - returns 14 day hourly weather for location (passed in location, can be zip code, address, or city)\
+/api/v1/weather/:location/hourly - returns 14 day hourly weather for location (passed in location, can be zip code, address, or city)
 
 ## Requirements
 [Node.js](https://nodejs.org/en)\
