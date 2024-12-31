@@ -1,5 +1,4 @@
 const notFound = (req, res) => {
-    console.log("not found middleware");
     res.status(404).send("Route does not exist");
 };
 

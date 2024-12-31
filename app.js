@@ -14,8 +14,10 @@ app.use(
     })
 );
 app.use(express.json());
+
 // routes
 app.use("/api/v1/weather", weatherRouter);
+
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 

@@ -7,8 +7,8 @@ const {
     getHourlyWeatherForLocation,
 } = require("../controllers/weather");
 
-router.route("/:zipCode").get(getCurrentWeatherForLocation);
-router.route("/:zipCode/daily").get(getDailyWeatherForLocation);
-router.route("/:zipCode/hourly").get(getHourlyWeatherForLocation);
+router.route("/:location").get(getCurrentWeatherForLocation);
+router.route("/:location/daily").get(getDailyWeatherForLocation);
+router.route("/:location/hourly").get(getHourlyWeatherForLocation);
 
 module.exports = router;
