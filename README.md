@@ -26,4 +26,4 @@ The purpose of this project is to practice using third party APIs, caching, env 
 
 
 ## Credits
-This project idea is part of [roadmap.sh](https://roadmap.sh/backend/projects) backend roadmap
+This project idea is from [roadmap.sh](https://roadmap.sh/projects/weather-api-wrapper-service)
